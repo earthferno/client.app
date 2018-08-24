@@ -1,0 +1,14 @@
+{
+  "name": "web-dev/component",
+  "version": "1.0",
+  "description": "My components",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Component\\": ""
+    }
+  }
+}

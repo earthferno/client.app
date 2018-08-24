@@ -1,0 +1,84 @@
+[
+    {
+        "name": "symfony/http-foundation",
+        "version": "v2.0.25",
+        "version_normalized": "2.0.25.0",
+        "target-dir": "Symfony/Component/HttpFoundation",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/http-foundation.git",
+            "reference": "f16943f90d8197a76b6cafcf5c7c73aff47b82fd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f16943f90d8197a76b6cafcf5c7c73aff47b82fd",
+            "reference": "f16943f90d8197a76b6cafcf5c7c73aff47b82fd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2013-08-06T07:14:49+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\HttpFoundation": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Symfony HttpFoundation Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "web-dev/component",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "dist": {
+            "type": "path",
+            "url": "../common/library/Component",
+            "reference": "041070997006d1dabe830041768f77c6dba2ed4f",
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Component\\": ""
+            }
+        },
+        "description": "My components"
+    },
+    {
+        "name": "web-dev/framework",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "dist": {
+            "type": "path",
+            "url": "../common/library/Framework",
+            "reference": "e35d3de3d230bf415c9d2677f7e829855f8d65dc",
+            "shasum": null
+        },
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Framework\\": ""
+            }
+        },
+        "description": "My framework"
+    }
+]

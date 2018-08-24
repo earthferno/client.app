@@ -1,0 +1,24 @@
+{
+  "name": "my-site",
+  "description": "My site",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../common/library/Framework"
+    },
+    {
+      "type": "path",
+      "url": "../common/library/Component"
+    }
+  ],
+  "require": {
+    "web-dev/framework": "*",
+    "web-dev/component": "*",
+    "symfony/http-foundation": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}

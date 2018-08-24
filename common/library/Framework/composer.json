@@ -1,0 +1,14 @@
+{
+  "name": "web-dev/framework",
+  "version": "1.0",
+  "description": "My framework",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": ""
+    }
+  }
+}
